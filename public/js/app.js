@@ -1,6 +1,4 @@
 
-console.log('testing java script file!!!');
-
 fetch('http://localhost:3000/weather?address=!').then((response)=>{
     response.json().then((data)=>{
 
